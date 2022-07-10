@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
-contract PatientPort {
+contract MediTrack {
     //The owner of this contract will be the adminstration that oversees the "Integrated Delivery Network"
     address public owner;
     address public primaryCareOrigin;
@@ -47,7 +47,7 @@ contract PatientPort {
     ) public {
         require(
             msg.sender == primaryCareContract,
-            "Only Primary Care Origin can add requests to Patient Port"
+            "Only Primary Care Origin can add requests to MediTrack"
         );
 
         Request memory request = Request(

@@ -1,12 +1,12 @@
 {
   "user": {
-    "firstName": "Rishi",
+    "firstName": "Alok",
     "middleName": "S",
     "lastName": "Mags",
-    "email": "reeshimagiawala@gmail.com",
+    "email": "alok.mathur2020@vitstudent.ac.in",
     "createdAt": "4/2/2022",
     "updatedAt": "4/2/2022",
-    "birthdate": "07/09/2003",
+    "birthdate": "27/03/2002",
     "conditions": [
       {
         "condition_id": "Asthma",

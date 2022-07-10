@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
-import "./PatientPort.sol";
+import "./MediTrack.sol";
 
 contract PrimaryCare {
     //The owner of this contract will be the adminstration that oversees the "Integrated Delivery Network"
@@ -40,13 +40,13 @@ contract PrimaryCare {
         string memory toEmail,
         address toContract
     ) public {
-        PatientPort pp = PatientPort(patients[patient].patientContract);
+        MediTrack pp = MediTrack(patients[patient].patientContract);
 
         pp.addRequest(
             owner,
             name,
             "Primary Care Provider",
-            "gupta.pediatrics@patientport.tech",
+            "gupta.pediatrics@MediTrack.tech",
             to,
             toName,
             toSpecial,

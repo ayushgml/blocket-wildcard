@@ -1,5 +1,5 @@
 {
-  "name": "@patient-port/smart-contracts",
+  "name": "@meditrack/smart-contracts",
   "version": "0.1.0",
   "private": true,
   "scripts": {

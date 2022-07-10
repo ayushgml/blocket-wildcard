@@ -1,0 +1,16 @@
+Owner of Primary Care(Gupta):
+0x2129eE33d0ad3ef14FDDfD3fcBc474cF555C6B6A
+
+Contact Address of Gupta:
+0x8B9bf00580c2c6408699a2D088C955ad544B1A05
+
+
+Patient(Alok):
+0xbD8a5C4f1ba3072b6e88e28529f8b78adfCeaa60
+
+Contract Address of Alok:
+0xf096720f1aEE724D1fC1072FF08A2DA3d8540B89
+
+
+Specialist Office(Mark):
+0x5BCBcFe48474910e57b2De505ab8b81930D6Ad57
