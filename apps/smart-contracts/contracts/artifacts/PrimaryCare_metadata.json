@@ -1,0 +1,207 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "patient",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "patientContract",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "addPatient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "patientRecord",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "patients",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "patient",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "patientContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "patient",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "toName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "toSpecial",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "toEmail",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "toContract",
+						"type": "address"
+					}
+				],
+				"name": "sendRecordRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Downloads/Programming/blocket-wildcard/apps/smart-contracts/src/PrimaryCare.sol": "PrimaryCare"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Downloads/Programming/blocket-wildcard/apps/smart-contracts/src/MediTrack.sol": {
+			"keccak256": "0xcc506b7dba10856f451f8a0e4a0af062760c2761dddf1a4ed2a743903bba30c4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://94929c3d78a850e4b8d6304809e1c4cbd99dfec4c9cc83c6ec5868a8d7a18843",
+				"dweb:/ipfs/QmVBdYzwgewRdEBY3KJUrNdaDjyJ5ERv4fDayPpQN8EQVY"
+			]
+		},
+		"Downloads/Programming/blocket-wildcard/apps/smart-contracts/src/PrimaryCare.sol": {
+			"keccak256": "0x75943ac4a969f6dfb2efa80c7fc792d1c2e57fd5f4ef337cd4ec36434513f76e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2c8ad106d011846374c1d994fc573ef443b98022197b3e671db754d0f4a2e66d",
+				"dweb:/ipfs/QmVPd2JoYFkruiNZ7PK3eiPCGABY6B32yWyPS1kKLFNg3U"
+			]
+		}
+	},
+	"version": 1
+}

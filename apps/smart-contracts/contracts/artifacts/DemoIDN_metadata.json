@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "pk",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "resourcecontract",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_url",
+						"type": "string"
+					}
+				],
+				"name": "addResource",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "pk",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_url",
+						"type": "string"
+					}
+				],
+				"name": "addResource",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "getResource",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "resourceName",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "resourcePK",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "resourceContract",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "resourceURL",
+								"type": "string"
+							}
+						],
+						"internalType": "struct DemoIDN.Resource",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "resources",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "resourceName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "resourcePK",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "resourceContract",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "resourceURL",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Downloads/Programming/blocket-wildcard/apps/smart-contracts/src/DemoIDN.sol": "DemoIDN"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Downloads/Programming/blocket-wildcard/apps/smart-contracts/src/DemoIDN.sol": {
+			"keccak256": "0xacfced702faaccabdd3013c9f59df15bd3fbc27289be6a428f480ab6da898c18",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://82b90f246aea1f61b7f7b4d1b370f94ddbd6e4dfebf1f03212586a12e6a8b2e9",
+				"dweb:/ipfs/QmSzsac5SqLdu1qKPXocjv85vTsTCQDEGvUhdXnancA5K7"
+			]
+		}
+	},
+	"version": 1
+}
