@@ -2,7 +2,7 @@
 
 <div align="center">  
   </a>
-  <h1 align="center">Text Utilities</h1>
+  <h1 align="center">MEDITRACK</h1>
 </div>
 
 ## Objective
