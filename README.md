@@ -32,6 +32,8 @@ How to create decentralized transactions that can reliably record and encrypt/de
 How to create a completely functional web application with React that users can access and use.
 
 ## What's next for MEDITRACK
+Adding more features, information, and data to MEDITRACK by using stronger smart contracts and blockchain links. 
+Developing a solution for medical professionals to handle their patients’ data with MEDITRACK through a simplified interface of the blockchain wallet
 
 ## Website Screenshorts
 ![image](https://user-images.githubusercontent.com/73957024/178137129-c3847786-f31d-4114-9e88-6782479fe51c.png)
