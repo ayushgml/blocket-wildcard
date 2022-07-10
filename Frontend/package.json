@@ -17,7 +17,8 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "revise-sdk": "^0.1.13"
   },
   "devDependencies": {
     "eslint": "7.32.0",
