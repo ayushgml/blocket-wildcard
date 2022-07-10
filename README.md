@@ -5,6 +5,10 @@
   <h1 align="center">MEDITRACK</h1>
 </div>
 
+```
+Note:- Check out our Smart Contracts in Master branch
+```
+
 ## Objective
 Patients and healthcare resources will always be concerned about data breaches and the exploitation of personal information as healthcare becomes more complex and networked. Patients are further removed from having access to their own medical record history as healthcare facilities move their databases to third-party providers, and the entire infrastructure of healthcare networks is significantly at risk and under attack from malicious actors. Many sensitive and revealing pieces of data may end up being exposed even after a single devastating attack on a centralized storage system.
 So, MEDITRACK is a decentralized and secure method for patients to quickly access requests for their medical records and respond to them in order to mitigate this danger.
