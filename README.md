@@ -29,3 +29,9 @@ How to create a completely functional web application with React that users can 
 
 ## What's next for MEDITRACK
 
+## Contact
+
+### Alok Mathur
+[`E-Mail`](mailto:alok.mathur0302@gmail.com)
+[`LinkedIn`](https://www.linkedin.com/in/alok-mathur-5aab4534/)
+
