@@ -1,4 +1,4 @@
-export const PatientPortABI = [
+export const MadiTrackABI = [
   {
     inputs: [
       { internalType: "string", name: "_name", type: "string" },

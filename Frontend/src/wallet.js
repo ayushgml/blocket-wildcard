@@ -1,10 +1,10 @@
-import { PatientPortABI } from "./sc_abi/abi";
+import { MadiTrackABI } from "./sc_abi/abi";
 const { ethers } = require("ethers");
 const BigNumber = require("bignumber.js");
 
 export var requestArray = [];
 export let ppcontract;
-export let patientPortAddress;
+export let MediTrackAddress;
 export let account;
 
 export default async function initWallet() {
@@ -21,7 +21,7 @@ export async function getPatientRequests(address) {
   const getPatientContract = () => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
-    const contract = new ethers.Contract(address, PatientPortABI, signer);
+    const contract = new ethers.Contract(address, MadiTrackABI, signer);
     return contract;
   };
 
@@ -45,7 +45,7 @@ export function updateRequestActive(index) {
   const getPatientContract = () => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
-    const contract = new ethers.Contract(ppcontract, PatientPortABI, signer);
+    const contract = new ethers.Contract(ppcontract, MadiTrackABI, signer);
     return contract;
   };
 

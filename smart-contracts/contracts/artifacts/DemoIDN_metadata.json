@@ -182,7 +182,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Downloads/Programming/blocket-wildcard/apps/smart-contracts/contracts/DemoIDN.sol": "DemoIDN"
+			"/Users/ayushgupta/Downloads/Programming/blocket/blocket-wildcard/smart-contracts/contracts/DemoIDN.sol": "DemoIDN"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -196,7 +196,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Downloads/Programming/blocket-wildcard/apps/smart-contracts/contracts/DemoIDN.sol": {
+		"/Users/ayushgupta/Downloads/Programming/blocket/blocket-wildcard/smart-contracts/contracts/DemoIDN.sol": {
 			"keccak256": "0xacfced702faaccabdd3013c9f59df15bd3fbc27289be6a428f480ab6da898c18",
 			"license": "GPL-3.0",
 			"urls": [

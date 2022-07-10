@@ -383,7 +383,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Downloads/Programming/blocket-wildcard/apps/smart-contracts/contracts/MediTrack.sol": "MediTrack"
+			"/Users/ayushgupta/Downloads/Programming/blocket/blocket-wildcard/smart-contracts/contracts/MediTrack.sol": "MediTrack"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -397,7 +397,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Downloads/Programming/blocket-wildcard/apps/smart-contracts/contracts/MediTrack.sol": {
+		"/Users/ayushgupta/Downloads/Programming/blocket/blocket-wildcard/smart-contracts/contracts/MediTrack.sol": {
 			"keccak256": "0xcc506b7dba10856f451f8a0e4a0af062760c2761dddf1a4ed2a743903bba30c4",
 			"license": "GPL-3.0",
 			"urls": [
