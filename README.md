@@ -54,7 +54,7 @@ Developing a solution for medical professionals to handle their patients’ data
 [`E-Mail`](mailto:suhasini.srivastava2020@vitstudent.ac.in)
 [`LinkedIn`](https://www.linkedin.com/in/suhasini-srivastava-797404205/)
 
-### Suhasini Srivastava
+### Ayush Gupta
 [`E-Mail`](mailto:ayush.gupta2020c@vitstudent.ac.in)
 [`LinkedIn`](https://www.linkedin.com/in/ayush-gupta-89b116214/)
 
